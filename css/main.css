@@ -128,6 +128,10 @@ body a {
   background-color: rgba(126, 89, 32, .25);
 }
 
+.hovereffect:hover .overlay h2 {
+  color: white;
+}
+
 .info img {
   display: block;
   position: relative;
@@ -147,10 +151,9 @@ body a {
   width: 100%;
 }
 
-.hovereffect h2:hover {
-  width: 100%;
-  background-color: rgba(126, 89, 32, .5);
-}
+/*.overlay h2:hover {
+  color: white;
+}*/
 
 #box-strip {
   padding: 0;
@@ -160,7 +163,6 @@ body a {
   margin-bottom: 0;
   color: #CC6F1E;
   text-shadow: 1px 1px 3px #7E5920;
-  /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));*/
 }
 
 .nav>li>a {
@@ -169,7 +171,7 @@ body a {
 }
 
 .nav>li>a:hover {
-  background-color: inherit;;
+  background-color: inherit;
 }
 
 .navbar {
